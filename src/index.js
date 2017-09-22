@@ -1,7 +1,13 @@
-export default function reduceReducers(...reducers) {
-  return (previous, current) =>
-    reducers.reduce(
-      (p, r) => r(p, current),
-      previous
-    );
+export default function reduceMergeReducers(...reducers) {
+  return (previous, current) => {
+    let isInitial = typeof previous === 'undefined';
+
+    return reducers.reduce((p, r) => {
+      if (isInitial) {
+        return { ...r(undefined, current), ...p };
+      }
+
+      return r(p, current);
+    }, { ...previous });
+  };
 }

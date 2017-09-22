@@ -1,7 +1,7 @@
 {
-  "name": "reduce-reducers",
+  "name": "reduce-merge-reducers",
   "version": "0.1.1",
-  "description": "Reduce multiple reducers into a single reducer",
+  "description": "Reduce and merge multiple reducers into a single reducer",
   "main": "lib/index.js",
   "scripts": {
     "test": "make test",
@@ -12,16 +12,17 @@
     "reducers",
     "functional",
     "fp",
-    "redux"
+    "redux",
+    "merge",
+    "initialState"
   ],
-  "author": "Andrew Clark <acdlite@me.com>",
   "bugs": {
-    "url": "https://github.com/acdlite/reduce-reducers/issues"
+    "url": "https://github.com/lutangar/reduce-merge-reducers/issues"
   },
-  "homepage": "https://github.com/acdlite/reduce-reducers",
+  "homepage": "https://github.com/lutangar/reduce-merge-reducers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acdlite/reduce-reducers.git"
+    "url": "https://github.com/lutangar/reduce-merge-reducers.git"
   },
   "license": "MIT",
   "devDependencies": {
