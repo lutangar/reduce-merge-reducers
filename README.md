@@ -1,6 +1,6 @@
 # reduce-merge-reducers
 
-[![build status](https://img.shields.io/travis/lutangar/reduce-merge-reducers/master.svg?style=flat-square)](https://travis-ci.org/acdlite/reduce-reducers)
+[![build status](https://img.shields.io/travis/lutangar/reduce-merge-reducers/master.svg?style=flat-square)](https://travis-ci.org/lutangar/reduce-merge-reducers)
 [![npm version](https://img.shields.io/npm/v/reduce-merge-reducers.svg?style=flat-square)](https://www.npmjs.com/package/reduce-merge-reducers)
 
 Reduce multiple reducers into a single reducer from left to right and merge their initial states.
