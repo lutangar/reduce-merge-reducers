@@ -1,3 +1,5 @@
+> Thi package is **deprecated** since [reduce-reducers](https://github.com/acdlite/reduce-reducers) now supports an initial state see https://github.com/redux-utilities/reduce-reducers/pull/13
+
 # reduce-merge-reducers
 
 [![build status](https://img.shields.io/travis/lutangar/reduce-merge-reducers/master.svg?style=flat-square)](https://travis-ci.org/lutangar/reduce-merge-reducers)
